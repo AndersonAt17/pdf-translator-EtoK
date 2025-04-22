@@ -1,6 +1,23 @@
+# Streamlit 앱 구동용
 streamlit
-python-dotenv
+
+# PDF 처리
 PyPDF2
-googletrans==4.0.0-rc1
-openai
+PyMuPDF  # import fitz
+pdf2image
+
+# 이미지 처리 및 OCR
+pillow
+opencv-python-headless  # Streamlit Cloud에서 GUI 없는 버전 추천
+pytesseract
+numpy
+
+# 번역 기능
+deep-translator
 langchain
+langchain-openai
+openai
+python-dotenv
+
+# 기타
+textwrap3  # textwrap 라이브러리 호환성 문제 예방용
