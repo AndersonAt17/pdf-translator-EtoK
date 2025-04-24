@@ -1,5 +1,5 @@
-# Streamlit 앱 구동용
-streamlit
+# Streamlit 앱 구동용=
+streamlit>=1.36.0
 
 # PDF 처리
 PyPDF2
@@ -21,3 +21,4 @@ python-dotenv
 
 # 기타
 textwrap3  # textwrap 라이브러리 호환성 문제 예방용
+httpx==0.24.1
