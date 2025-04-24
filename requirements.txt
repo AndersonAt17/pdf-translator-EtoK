@@ -22,3 +22,4 @@ python-dotenv
 # 기타
 textwrap3  # textwrap 라이브러리 호환성 문제 예방용
 httpx==0.24.1
+streamlit-cookies-manager
